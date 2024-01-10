@@ -291,7 +291,7 @@ def do_it(data, eps):
             )
             plt.sca(ax4)
             extract_cluster_labels_dbscan(vae_mu, data, eps)
-            plt.title("DBScan taxon clustering in $Z$")
+            plt.title("DBScan OTU clustering in $Z$")
 
             plt.subplots_adjust(hspace=0.5, wspace=0.25)
 
