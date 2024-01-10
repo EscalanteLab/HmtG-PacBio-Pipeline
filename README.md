@@ -17,6 +17,39 @@ The HmtG-PacBio Pipeline is a comprehensive computational tool designed for proc
    ```
    git clone [repository-url]
    ```
+2. This project utilizes Conda, a package and environment management system, which simplifies the installation and management of software packages. Below are the steps to install all necessary requirements to run this project, including Conda packages like MAFFT and BLAST, as well as Python modules.
+
+i) Installing Conda
+If you don't have Conda installed, you can download it from Miniconda or Anaconda. Follow the instructions on the official website to install it on your operating system.
+
+ii) Creating and Activating a Conda Environment
+Once Conda is installed, create a specific environment for this project. This ensures that the dependencies for this project do not interfere with those of other projects. Use the following command to create an environment:
+
+```
+conda create -n HmtG-PacBio python=3.9
+```
+
+To activate the environment, use:
+
+```
+conda activate HmtG-PacBio
+```
+
+iii) Installing Conda Packages
+Within the activated Conda environment, install necessary Conda packages like MAFFT and BLAST using the following commands:
+
+```
+conda install -c bioconda mafft
+conda install -c bioconda blast
+```
+
+iv) Installing Python Modules
+
+Next, install the required Python modules using the requirements.txt file provided in this repository:
+
+```
+pip3 install -r requirements.txt
+```
 
 ## Usage
 
