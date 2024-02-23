@@ -3,9 +3,9 @@
 
 ## Description
 The HmtG-PacBio Pipeline is a comprehensive computational tool designed for processing Haemosporidian mitochondrial genome data from PacBio sequencing. It encompasses stages like primer detection, alignment, DNA sequence conversion to binary format, VAE model (machine learning method), clustering using DBScan, sequence correction, and local BLAST analysis.
-```
-<img src="HmtG-PacBio.jpg" alt="Flowchart Description" width="600" height="800"/>
-```
+
+<!-- <img src="HmtG-PacBio.jpg" alt="Flowchart Description" width="600" height="800"/> -->
+
 ## Requirements
 - Python 3.x
 - MAFFT v7.520
